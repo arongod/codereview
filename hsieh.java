@@ -89,7 +89,7 @@ class AvlTreeT extends Comparable super T {
     @return Maximum value
      
   public int max (int a, int b){
-    if (a  b)
+    if (a < b)
       return b;
     return a;
   }
